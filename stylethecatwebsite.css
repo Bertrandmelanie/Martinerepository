@@ -1,0 +1,60 @@
+.cat_senses, u {
+    margin-left: 50px;
+}
+ ol{
+    list-style-type:upper-roman;
+ }
+
+ .Media {
+    text-align: center;
+ }
+
+ .baby_cat {
+    width: 400px;
+    height: 350px;
+    margin-left: 450px;
+    border: 3px solid red;
+ }
+
+ #domestic {
+font-size: 30px;
+ }
+
+ .lions {
+    font-size: 30px;
+ }
+
+ .difference_lions {
+    text-align: center;
+    color: red;
+    border: 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+th {
+    border: 1px solid
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 3px 20px 3px;
+
+}
+
+table{
+    margin: 0 50px 0 50px;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+.wild_lion {
+
+    width: 600px;
+    height: 350px;
+    margin-left: 450px;
+    border: 7px solid rgb(250, 178, 83);
+ }
