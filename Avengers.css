@@ -1,0 +1,36 @@
+ li {
+    display:inline;
+margin-left: 100px;
+padding-left: 250px;
+}
+
+ul {
+    background-color: black;
+    padding: 20px;
+    display: block;
+    padding: 14px 16px;
+}
+
+li a {
+    color: white;
+    padding-bottom: 50px;
+    
+}
+
+.thor {
+    width: 1500px;
+    height: 700px;
+}
+
+.odinson {
+    text;
+
+}
+
+p { 
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    
+
+}
