@@ -6,9 +6,9 @@ padding-left: 250px;
 
 ul {
     background-color: black;
-    padding: 20px;
     display: block;
     padding: 14px 16px;
+    margin-right: 0;
 }
 
 li a {
@@ -22,15 +22,21 @@ li a {
     height: 700px;
 }
 
-.odinson {
-    text;
-
+h1 {
+    font-size: 50;
+    font-family:Arial;
 }
 
 p { 
     position: absolute;
     bottom: 15px;
     left: 20px;
-    
+}
 
+.container {
+    position:relative
+}
+
+#Odinson {
+    position:relative;
 }
