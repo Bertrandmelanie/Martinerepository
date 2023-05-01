@@ -1,0 +1,38 @@
+	TABLE
+
+
+th {
+    border: 1px solid
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 3px 20px 3px;
+
+}
+
+table{
+    margin: 0 50px 0 50px;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+
+
+Color Theme- => Boostrap colors <W3schools.com>
+Test Colors> background colors
+button- btn=warning
+
+lg- bootstrap.com-component (size)
+
+
+i=icons
+next to the text
+
+Navigation bar.
+nav bar dark- bg dark - to change the background and the text of the navigation bar
+
+slideshow- carousel
