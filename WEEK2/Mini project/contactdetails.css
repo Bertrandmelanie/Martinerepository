@@ -1,0 +1,131 @@
+*{
+padding:0;
+margin:0;
+}
+
+
+body{ 
+    
+    background: linear-gradient(180deg, rgba(247, 188, 174, 0.76), rgba(247, 62, 56, 0.705));
+    border-radius: 2%;
+}
+
+#bigcontainer {
+
+    display:flex;
+    flex-direction: row;
+}
+
+  .I{
+    height: 90vh;
+    width: auto;
+    border: solid 2px rgb(167, 104, 112);
+    object-fit: cover;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 3%;
+}
+
+.cont{
+    margin-left: 20%;
+    position: absolute;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times;
+    color: rgb(235, 61, 61);
+}
+
+#container2 {
+    width: 100vw;
+}
+
+#input {
+    width: auto;
+    height: 20%;
+    
+}
+
+#form {
+    margin-top: 20% ;
+    margin-left: 10%;
+}
+
+.forminput {
+   padding: 0.5%;
+   color: rgb(252, 251, 251);
+   background-color:#f3c33d;}
+
+.message{
+    padding: 3%;
+    margin-top: 2%;
+    color: rgb(252, 251, 251);
+    background-color:#f3c33d;}
+ 
+
+
+
+
+label{
+    color: azure;
+    font-weight: bold;
+    font-size: large;
+}
+#submit{
+    padding: 0.5%;
+    width:15%;
+    margin-top: 2%;
+    margin-left:5%;
+    background-color: rgb(252, 83, 83);
+    font-weight: bold;
+    cursor:pointer;
+}
+.info{
+    /* width: auto; */
+    margin-left:53%;
+    margin-top: -30%;
+
+}
+
+.mine{
+font-size: xx-large;
+color: rgb(240, 84, 84);
+}
+
+#mail{
+    margin-top: 5%;
+    font-size: larger;
+    color: aliceblue;
+}
+
+#phone{
+    margin-top: 6%;
+    font-size: larger;
+    color: aliceblue
+}
+
+.icons{
+ font-size: xx-large;
+ padding-top:2%;
+ padding-left: 10%
+}
+
+
+.icons i:hover {
+    transition: 0.3s ease;
+    background-color: black;
+    cursor: pointer;
+}
+
+#backtxt{
+    text-decoration: none;
+    color: rgb(252, 26, 26);
+}
+
+#back{
+    margin-top: 40%;
+    margin-left: 65%;
+    font-size: large;
+}
+ 
+    
+
