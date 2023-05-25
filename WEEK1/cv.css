@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px){}
+.products { font-size: 25px;
+}
+.me { 
+    color: rgb(107, 30, 7);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #faeaea;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1, p {
+    margin: 5px 0;
+
+}
+
+.about {
+    color: rgb(121, 15, 7);
+
+}
+
+.details h2 {
+    margin-top: 20px;
+}
+
+
+.details p {
+    margin-bottom: 10px;
+}

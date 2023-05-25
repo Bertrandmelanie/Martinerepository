@@ -1,11 +1,13 @@
  li {
+    flex: auto;
     display:inline;
+    margin-right: 2%
     
 }
 
 ul {
     background-color: black;
-    padding: 14px 16px;
+    padding: 14px 100px;
     text-align: right;
 
 }
@@ -17,13 +19,12 @@ li a {
 }
 
 .thor {
-    width: 1500px;
-    height: 700px;
+    width: 1325px;
+    height: 500px;
 }
 
 h1 {
-    font-size: 50;
-    font-family:Arial;
+   
 }
 
 p { 
@@ -38,4 +39,6 @@ p {
 
 #Odinson {
     position:relative;
+    font-size: 50;
+    font-family:Arial;
 }
