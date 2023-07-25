@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+#container {
+	width: 100%;
+	height: 100vh;
+}
+
+#container > div {
+	display: flex;
+}
+
+/*section1*/
+
+#section1 {
+	padding: 30px 0 0 50px;
+	background-color:whitesmoke;
+	flex-direction: column;
+	height: 200px;
+	position: relative;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px rgb(230, 17, 99);
+}
+
+#section1hr {
+	width: 370px;
+	height: 1px;
+	background-color: black;
+
+}
+
+#section1 h1{
+	font-size: 40px;
+}
+
+#section1 h3 {
+ padding:5px 0 5px 0;
+ color: rgb(230, 17, 99);
+font-size: 22px;
+}
+
+#section1 p {
+	 padding-top:15px;
+}
+
+
+#section1 img {
+	 position: absolute;
+	 top: 20px;
+	 right: 100px;
+   object-fit: cover;
+   height: 185px;
+	border-radius: 50%;
+	box-shadow: 3px 5px 10px black;
+}
+
+
+#section1d {
+	width: 900px;
+}
+
+/*end of section1*/
+
+#containers23 {
+	display: flex;
+	width: 100wv;
+}
+
+/*section2*/
+
+#section2 {
+	width: 30%;
+	flex-direction: column;
+	text-align: center;
+	background-color: #E6E6EA;
+}
+
+.section2hr {
+	width: 180px;
+	height: 0.5px;
+	margin: 4px 0 0 160px;
+	border: 0.5px solid black;
+	background-color: black;
+	box-shadow: 0 4px 7px rgb(230, 17, 99);
+}
+
+.section2tc {
+	padding: 10px 0 0;
+}
+
+
+.section2tc:hover {
+	background-color:whitesmoke ;
+}
+
+.section2ul {
+	padding: 25px 0 20px;
+}
+
+.contacttxt {
+	line-height: 35px;
+}
+
+#skills {
+		display: flex;
+		justify-content: center ;
+		padding-left: 120px;
+}
+
+#skillstxt>li{
+	text-align: left;
+	width: 100%;
+
+
+}
+
+.languagetxt1 {
+padding: 15px 0 0 0;
+}
+
+.section2t {
+	color: rgb(230, 17, 99);
+}
+
+#contact {
+	padding-top: 10px;
+}
+
+
+
+/*section3*/
+
+#section3 {
+	width: 70%;
+	border-left: 10px solid rgb(230, 17, 99);
+}
+
+#workexperience {
+padding: 20px 0 0 50px;
+}
+
+.section3hr {
+	width: 190px;
+	height: 1px;
+	margin: 4px 0 0 0;
+	border: 0.5px solid black;
+	background-color: black;
+	box-shadow: 0 4px 7px rgb(230, 17, 99);
+}
+
+.section3ul {
+	padding: 20px 0;
+}
+
+.section3t {
+	color: rgb(230, 17, 99);
+}
+
+.worktitle {
+	font-size: 20px;
+
+}
+
+.workc {
+	font-size: 18px;
+
+}
+
+.workcs {
+	color: rgb(230, 17, 99);
+}
+
+.workdes {
+	padding: 7px 0 25px;
+}
+
+.workdes li {
+	padding: 3px;
+}
+
+.section3ulc {
+	width: 100%;
+	padding: 20px 0 0 50px;
+	transition: 0.30s;
+}
+
+.section3ulc:hover {
+	background-color:antiquewhite;
+
+}

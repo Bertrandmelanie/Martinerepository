@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding:0 50px;
+  overflow: hidden;
+   background-color: black;
+   box-shadow: 0 7px 15px goldenrod;
+}
+
+#navbar i{
+	cursor: pointer;
+}
+
+#textright {	
+  float: right;
+  display: inline-block;
+  align-content: center;
+  text-decoration: none;
+   padding: 20px 15px 20px 15px;
+   color: antiquewhite;
+   font-size: 20px;
+}
+
+#textright:hover {
+	color:white;
+	background-color: goldenrod;
+}
+
+#logoleft {
+float: left;
+color: white;
+text-shadow: 0px 1px 15px gold;
+padding: 10px 0 0 30px;
+font-size: 30px;
+}
+
+#logoleft h2{
+  padding-left: 10px;
+  text-shadow: none;
+  color: antiquewhite;
+  font-size: 23px;
+}
+
+
+body{
+	background-color: lightgrey;
+}
+
+#containers{
+margin:40px 0 40px 0;
+text-align: center;
+}
+
+.productcons{
+	width: 270px;
+	display: inline-block;
+	background-color: white;
+	transition: all 0.30s;
+	margin-right: 50px;
+}
+
+.productcons:hover {
+border: 2px solid darkgoldenrod;
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.productimgcontainer {
+	position: relative;	
+}
+
+.productimg {
+object-fit: cover;	
+ width: 100%;
+ margin:0;
+}
+
+.model{
+	position: absolute;
+	padding: 10px 4px 10px 4px;
+	top:25px;
+	left:10px ;
+	background-color: green;
+	border-radius: 50%;
+	color: white;
+	font-weight: bold;
+}
+
+.discount{
+	position: absolute;
+	top:25px;
+	right:15px ;
+	padding: 10px 2px 10px 2px;
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+	font-weight: bold;
+}
+
+.productdetails {
+	text-align: center;
+	padding: 3px 0 6px 0 ;
+}
+
+.description {
+	font-style: normal;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.price {
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: green;
+	font-weight: bold;
+}
+
+.priceoff {
+	 text-decoration: line-through;
+	 padding-left: 5px;
+	 font-size: 13px;
+	 font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.addtocart {
+	margin: 10px 0 20px 0;
+	padding: 5px 6px 5px 6px;
+	background-color: goldenrod;
+	border: 2px solid goldenrod;
+}
+
+.addtocart a{
+	color: white;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	transition: all 1s;
+}
+
+.addtocart:hover {
+background-color: green;
+border: 2px solid darkgreen;
+}
