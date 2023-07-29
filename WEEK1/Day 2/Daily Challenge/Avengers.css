@@ -7,10 +7,11 @@
 }
 
 ul {
-    background-color: rgb(232, 66, 66);
+    background-color: rgb(7, 7, 7);
     padding: 22px 100px;
     text-align: right;
     width: 86%;
+    height: 5%;
     position: absolute;
     z-index: 1;
     margin-top:-1.7%;
@@ -30,7 +31,7 @@ li a {
     height: 730px;
     width: 100%;
     position:relative;
-    margin-top:-5+%;
+    margin-top:-5+;
     z-index: 0;
     
 }
