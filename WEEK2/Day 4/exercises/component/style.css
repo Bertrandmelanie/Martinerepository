@@ -1,4 +1,37 @@
 .nav-link{
 flex: auto;
-
 }
+
+.display-4 {
+font-weight: 400;
+margin-left: -80%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.lead{
+margin-left: -64%;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#button{
+margin-left: -98%;
+margin-bottom: 2%;
+margin-top: 1%;
+}
+
+.nav-link{
+    margin-left: 45%;
+}
+
+.exercise{
+    margin-left: -100%;
+    color:aliceblue;
+    font-weight: lighter;
+    font-size: x-large; 
+}
+
+.form-inline{
+    margin-right: 8%;
+}
+
